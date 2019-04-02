@@ -340,7 +340,6 @@ h2, .h2 {
 }
 .countdown {
 	text-align: center;
-	margin-top: 16px;
 	line-height: 48px;
 }
 
@@ -413,7 +412,7 @@ h2, .h2 {
 	margin-bottom: 8px;
 }
 .banner-container {
-	background-image: url('./bg.jpg');
+	background-image: url('../images/about-us.jpg');
 	background-repeat: repeat;
 	min-height: 775px;
 	float:left;
@@ -495,16 +494,20 @@ h2, .h2 {
 	font-size: 60px !important;
 	font-weight: normal !important;
 	text-transform: capitalize;
-	margin-top: 50px;
 	/* background: #E91E63; */
 	padding: 15px;
 	font-weight: 700 !important;
+	margin: 0px;
 }
 #home .heading h3 {
 	color: #ffffff;
 	font-size: 28px !important;
 	font-weight: 700 !important;
 	text-shadow: -1px -1px 5px rgba(0, 0, 0, 0.33);
+	margin: 0px;
+}
+#home .heading h5{
+	margin: 0px;
 }
 #home .heading strong {
 	color: #fff;
@@ -772,7 +775,6 @@ a.arrow-link:hover {
 .heading {
 	padding: 3px 8px;
 	padding-bottom: 15px;
-	margin-top: 34%;
 	display: block;
 }
 .pdingBtm30 {
@@ -860,6 +862,12 @@ font-weight: 700;
 	padding-bottom: 25px;
 	overflow: hidden;
 	color:#fff;
+}
+#address{
+	text-align: center;
+}
+#address ul{
+	padding-left: 0px;
 }
 #address ul li{
 	list-style:none;
