@@ -412,7 +412,7 @@ h2, .h2 {
 	margin-bottom: 8px;
 }
 .banner-container {
-	background-image: url('../images/about-us.jpg');
+	background-image: url('./bg.jpg');
 	background-repeat: repeat;
 	min-height: 775px;
 	float:left;
