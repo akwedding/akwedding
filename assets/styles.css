@@ -408,6 +408,9 @@ h2, .h2 {
 	height: 28px;
 	line-height: 28px;
 }
+.carousel-control.left{
+	background-image: none;
+}
 .date{
 	margin-bottom: 8px;
 }
